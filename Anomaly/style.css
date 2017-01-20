@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html, body{
+    font-family: 'Lato', sans-serif;
+
+}
+h1{
+    font-size: 3.5em;
+    font-family: 'Lato', sans-serif;
+    color: #214f6c;
+
+}
+h2{
+    font-size: 2.5em;
+    font-weight: 900;
+}
+.clearfix:after{
+    visibility: hidden;
+    content: " ";
+    display: block;
+    height:0;
+    font-size: 0;
+    clear:both;
+}
+#wrapper{
+    width: 1200px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+header{
+    width: 1200px;
+    position: fixed;
+    background: white;
+    height: 130px;
+    z-index: 6;
+        border-bottom: 5px solid #214f6c;
+
+    
+}
+header img{
+    width: 25%;
+    padding-top: 20px;
+}
+
+nav{
+    float: right;
+    height: 100%;
+
+}
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    transform: rotate(45deg);
+    transform-origin: left top 0;
+    padding-top: px;
+    padding-left: px;
+    
+}
+header nav ul li i{
+    padding-right: 5px;
+    color: #2980b9
+}
+header nav ul li a:link{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2980b9;
+}
+header nav ul li a:visited{
+    color: #2980b9;
+}
+header nav ul li a:hover{
+text-decoration: underline;
+text-shadow: 1px 0px .5px #414141;
+}
+
+#container{
+    padding-top: 140px;
+    width: 1200px;
+}
+#side{
+    width:200px;
+    height: 100%;
+    position: fixed;
+    background: white;
+    padding: 20px;
+    padding-right: 10px;
+    border-right: 5px solid #214f6c;
+    z-index: 4;
+    
+}
+#side h4{
+    color: #c0392b;
+    margin-top: 20px;
+}
+#main{
+    width: 950px;
+    float: right;
+    
+}
+#main h1{
+    border-bottom: 15px solid #214f6c;
+}
+#main img{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+#content{
+    padding: 0 20px;
+    margin-top: 10px;
+}
+.copy{
+    width: 400px;
+    float: left;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.copy i{
+    float:left;
+    color: #2980b9;
+}
+.copy h3{
+    float: left;
+    padding-left: 5px;
+    color: #2980b9;
+}
+.copy p{
+    clear:left;
+}
+footer{
+    clear:both;
+    height: 20px;
+    width: 1200px;
+    color: black;
+    background: #eee;
+    bottom: 0;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+}

@@ -1,0 +1,116 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Helvetica Neue, sans-serif;
+    color: #ff5344;
+}
+
+img{
+    height: 5%;
+    width: 5%;
+    border: 1px solid #ff5344;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+h1{
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+hr{
+    color: #eee;
+}
+#container{
+    height: 100%;
+    position: relative;
+}
+header{
+    margin-bottom: 80px;
+}
+header img{
+    margin-left: 20px;
+}
+img:hover{
+    cursor: pointer;
+}
+nav{
+    float: right;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: 100;
+}
+nav ul{
+        padding: 10px 0px 10px 0px;
+
+
+
+}
+nav ul li{
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+    list-style: none;
+    border: 1px solid #ff5344;
+    margin-right: 50px;
+    text-align: center;
+}
+nav ul li a:link{
+    color: #ff5344;
+    text-decoration: none;
+    
+}
+nav ul li a:visited{
+    color: #ff5344;
+}
+nav ul li a:hover,
+nav ul li:hover{
+    color: white;
+    background: #ff5344;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#wrapper{
+    clear: right;
+    margin: 0 auto;
+    width: 960px;
+    padding: 100px;
+    text-align: center;
+    min-height: 100%;
+}
+
+input[type=submit] {
+    display: inline-block;
+    background: #ff5344;
+    height: 40px;
+    width: 100px;
+    margin-right: 10px;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ff5344;
+    border-radius: 3px;
+}
+input[type=submit]:hover {
+cursor: pointer;
+    background: #cb4236;
+    border: 1px solid #cb4236;
+}
+
+footer{
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: #eee;
+    font-size: 12px;}
+
+

@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    height: 90%;
+}
+header{
+    font-size: 13px;
+font-weight: lighter;
+    height: 80px;
+}
+
+
+
+ul{
+    list-style: none;
+    text-align: right;
+    
+}
+ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+ul li img{
+    height: 25px;
+    width: 25px;
+    
+}
+ul li a:link{
+ color: #727272; 
+    text-decoration: none;
+}
+ul li a:visited{
+    color:#727272;
+}
+ul li a:hover{
+    text-decoration: underline;
+    
+}
+
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 100px;
+    min-height: 90%;
+    position:relative;
+}
+#container:after{
+    content: "";
+    display: block;
+}
+
+#container img{
+display:block;
+margin: 0 auto;
+    margin-bottom: 20px
+}
+img {
+    width: 290px;
+    height: 100px;
+    
+}
+#forms{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+input[type="search"]{
+    width: 480px;
+    height: 40px;
+    background: url("download.png") right no-repeat;
+    background-size: 19px 22px;
+    outline:none;
+    padding: 5px;
+    font-size: 16px;
+    margin: 20px 0;
+    border: 1px solid #cecaca;;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+#btn{
+    width: 500px;
+    margin: 0 auto;
+}#btn form{
+    text-align: center;
+}
+input[type="submit"]{
+    width: 140px;
+    height: 40px;
+    margin: 10px 5px 10px 0;
+    font-size: 13px;
+    font-weight: bold;
+    background:#efefef;
+    border: none;
+    color: #727272;
+    border-radius: 2px
+}
+input[type="submit"]:hover{
+    border:1px solid #9d9d9d;
+    color: black;
+    box-shadow: 1px 1px 1px #eee;
+}
+
+section p{
+    margin-top: 10px;
+font-size: 14px;
+    text-align: ;
+}
+
+p a:link{
+    text-decoration: none;
+}
+p a:visited{
+    color: darkblue;
+}
+
+
+
+
+
+#foot, #container:after{
+    height: 30px;
+}
+
+#left{
+    float:left;
+}
+#right{
+    float:right;
+}
+
+footer{
+    font-size: 13px;
+    background:#eae9e9;
+    padding: 15px 10px 0 10px;;
+}
+
+footer a{
+    margin-right: 20px;
+}
+footer a:link{
+    text-decoration: none;
+    color:#727272
+}
+footer a:visited{
+    color:#727272
+    
+}
+footer a:hover{
+    text-decoration: underline;
+    
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
